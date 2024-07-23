@@ -5,7 +5,7 @@ type CustomButtonType = {
 	title: string
 	handlePress: () => void
 	containerStyles: string
-	textStyles: string
+	textStyles?: string
 	isLoading: boolean
 }
 
